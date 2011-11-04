@@ -205,10 +205,103 @@ body {
 #content {
 	height: 655px;
 	width: 760px;
-	margin: 33px 0 35px 0;
+	margin: 33px 0 0 0;
 	background: #FFFFFF;
 	border: 10px #FFFFFF solid;
 	float: left;
+	overflow: hidden;
 	-webkit-box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
 	box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
+}
+
+/* -- CODA SLIDER STYLES (image slideshow) -- */
+noscript div {
+	background: #ccc;
+	border: 1px solid #900;
+	margin: 20px 0;
+	padding: 15px
+}
+.coda-slider {
+	background: #FFFFFF;
+}
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+.coda-slider-no-js .coda-slider {
+	height: 200px;
+	overflow: auto !important;
+	padding-right: 20px;
+}
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider, .coda-slider .panel {
+	width: 770px; /* 10px wider than photo to create right edge white padding between slides */
+}
+/* Change margin and width of the slider (with dynamic arrows) */
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
+	width: 760px;
+}
+.coda-slider-wrapper.arrows .coda-slider {
+	margin: 0 10px;
+}
+/* Arrow styling */
+.coda-nav-left a, .coda-nav-right a {
+	background: #000;
+	color: #fff; 
+	padding: 5px;
+	width: 100px;
+}
+/* Tab nav */
+.coda-nav ul li a.current {
+	background: #39c;
+}
+/* Panel padding */
+.coda-slider .panel-wrapper {
+	padding: 0;
+}
+/* Preloader */
+.coda-slider p.loading {
+	padding: 20px;
+	text-align: center;
+}
+/* Tabbed nav */
+.coda-nav ul {
+	clear: both;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+}
+.coda-nav ul li {
+	display: inline;
+}
+.coda-nav ul li a {
+	background: #000;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	padding: 3px 6px;
+	text-decoration: none;
+}
+/* Miscellaneous */
+.coda-slider-wrapper {
+	clear: both;
+	overflow: auto;
+}
+.coda-slider {
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.coda-slider .panel {
+	display: block;
+	float: left;
+}
+.coda-slider .panel-container {
+	position: relative;
+}
+.coda-nav-left, .coda-nav-right {
+	float: left;
+}
+.coda-nav-left a, .coda-nav-right a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
 }
