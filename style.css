@@ -201,17 +201,53 @@ body {
 	background: url('image/nav_sprite.jpg') 0 -1400px no-repeat;
 }
 
-/* -- CONTENT -- */
-#content {
-	height: 655px;
-	width: 760px;
+/* -- HOME CONTENT -- */
+#home_slideshow {
+	height: 675px;
+	width: 780px;
 	margin: 33px 0 0 0;
-	background: #FFFFFF;
-	border: 10px #FFFFFF solid;
+	background: transparent;
 	float: left;
 	overflow: hidden;
-	-webkit-box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
-	box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
+}
+
+/* -- MENU CONTENT -- */
+#menu_background {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: url('image/lunch_dinner.jpg');
+	float: left;
+	overflow: hidden;
+}
+#menu {
+	width: 165px;
+	height: 680px;
+	margin: 30px 15px 35px 15px;
+	padding: 0;
+	float: left;
+	background: url('image/menu_sprite.jpg') 0 0 no-repeat;
+}
+#menu li, #menu li a {
+	list-style: none;
+	text-indent: -9999em;
+	margin: 0;
+	padding: 0;
+}
+#menu_01 a { /* Lunch Menu */
+	width: 165px;
+	height: 130px;
+	display: block;
+	background: url('image/menu_sprite.jpg') 0 0 no-repeat;
+}
+#menu_02 a { /* Dinner Menu */
+	width: 165px;
+	height: 60px;
+	display: block;
+	background: url('image/menu_sprite.jpg') 0 -200px no-repeat;
+}
+#menu_02 a:hover {
+	background: url('image/menu_sprite.jpg') -200px -200px no-repeat;
 }
 
 /* -- CODA SLIDER STYLES (image slideshow) -- */
@@ -222,7 +258,7 @@ noscript div {
 	padding: 15px
 }
 .coda-slider {
-	background: #FFFFFF;
+	background: transparent;
 }
 /* Use this to keep the slider content contained in a box even when JavaScript is disabled */
 .coda-slider-no-js .coda-slider {
@@ -291,6 +327,7 @@ noscript div {
 	position: relative;
 }
 .coda-slider .panel {
+	background: transparent;
 	display: block;
 	float: left;
 }
