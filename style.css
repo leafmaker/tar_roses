@@ -1,0 +1,214 @@
+/*
+Tar & Roses
+Created November 2011
+Markup authored by James P. Morse of www.workwithgrid.com
+*/
+
+/* -- STYLE RESET -- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	display: block;
+}
+
+/* -- GENERAL STRUCTURE -- */
+body {
+	background: url('image/body_background.jpg') repeat;
+}
+#wrapper {
+	width: 1000px;
+	height: 745px;
+	margin: 60px auto 20px auto;
+	background: url('image/paper_background.jpg');
+	-webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75); /* Safari and Chrome */
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+/* -- NAVIGATION -- */
+#nav {
+	width: 165px;
+	height: 680px;
+	margin: 30px 15px 35px 15px;
+	padding: 0;
+	float: left;
+	background: url('image/nav_sprite.jpg') 0 0 no-repeat;
+}
+#nav li, #nav li a {
+	list-style: none;
+	text-indent: -9999em;
+	margin: 0;
+	padding: 0;
+}
+#nav_01 a { /* Tar & Roses */
+	width: 165px;
+	height: 130px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 0 no-repeat;
+}
+#nav_02 a { /* Menu */
+	width: 165px;
+	height: 60px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -200px no-repeat;
+}
+#nav_02 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -200px no-repeat;
+}
+#nav_03 a { /* Photos */
+	width: 165px;
+	height: 30px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -300px no-repeat;
+}
+#nav_03 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -300px no-repeat;
+}
+#nav_04 a { /* News */
+	width: 165px;
+	height: 50px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -400px no-repeat;
+}
+#nav_04 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -400px no-repeat;
+}
+#nav_05 a { /* The Team */
+	width: 165px;
+	height: 60px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -500px no-repeat;
+}
+#nav_05 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -500px no-repeat;
+}
+#nav_06 a { /* Parties */
+	width: 165px;
+	height: 30px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -600px no-repeat;
+}
+#nav_06 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -600px no-repeat;
+}
+#nav_07 a { /* Press */
+	width: 165px;
+	height: 30px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -700px no-repeat;
+}
+#nav_07 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -700px no-repeat;
+}
+#nav_08 a { /* Visit Us */
+	width: 165px;
+	height: 50px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -800px no-repeat;
+}
+#nav_08 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -800px no-repeat;
+}
+#nav_09 a { /* Address */
+	width: 165px;
+	height: 60px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -900px no-repeat;
+}
+#nav_09 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -900px no-repeat;
+}
+#nav_10 { /* Phone Number */
+	width: 165px;
+	height: 60px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -1000px no-repeat;
+}
+#nav_11 a { /* Facebook */
+	width: 86px;
+	height: 30px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -1100px no-repeat;
+	float: left;
+}
+#nav_11 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -1100px no-repeat;
+}
+#nav_12 a { /* Twitter */
+	width: 79px;
+	height: 30px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -1200px no-repeat;
+	float: left;
+}
+#nav_12 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -1200px no-repeat;
+}
+#nav_13 a { /* Reservations */
+	width: 165px;
+	height: 40px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -1300px no-repeat;
+	clear: both;
+}
+#nav_13 a:hover {
+	background: url('image/nav_sprite.jpg') -200px -1300px no-repeat;
+}
+#nav_14 { /* It's Wood Fired */
+	width: 165px;
+	height: 50px;
+	display: block;
+	background: url('image/nav_sprite.jpg') 0 -1400px no-repeat;
+}
+
+/* -- CONTENT -- */
+#content {
+	height: 655px;
+	width: 760px;
+	margin: 33px 0 35px 0;
+	background: #FFFFFF;
+	border: 10px #FFFFFF solid;
+	float: left;
+	-webkit-box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
+	box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.25);
+}
