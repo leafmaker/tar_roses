@@ -221,12 +221,11 @@ body {
 	overflow: hidden;
 }
 #menu {
-	width: 165px;
-	height: 680px;
-	margin: 30px 15px 35px 15px;
+	width: 752px;
+	height: 25px;
+	margin: 490px 0 0 14px;
 	padding: 0;
 	float: left;
-	background: url('image/menu_sprite.jpg') 0 0 no-repeat;
 }
 #menu li, #menu li a {
 	list-style: none;
@@ -234,20 +233,23 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#menu_01 a { /* Lunch Menu */
-	width: 165px;
-	height: 130px;
+#menu_lunch a { /* Lunch Menu */
+	width: 376px;
+	height: 25px;
+	display: block;
+	background: url('image/menu_sprite.jpg') 0 -100px no-repeat;
+	float: left;
+	cursor: default !important; /* remove cursor style once lunch menu is available for download */
+}
+#menu_dinner a { /* Dinner Menu */
+	width: 376px;
+	height: 25px;
 	display: block;
 	background: url('image/menu_sprite.jpg') 0 0 no-repeat;
+	float: left;
 }
-#menu_02 a { /* Dinner Menu */
-	width: 165px;
-	height: 60px;
-	display: block;
-	background: url('image/menu_sprite.jpg') 0 -200px no-repeat;
-}
-#menu_02 a:hover {
-	background: url('image/menu_sprite.jpg') -200px -200px no-repeat;
+#menu_dinner a:hover {
+	background: url('image/menu_sprite.jpg') -400px 0 no-repeat;
 }
 
 /* -- CODA SLIDER STYLES (image slideshow) -- */
