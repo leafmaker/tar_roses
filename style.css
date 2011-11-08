@@ -65,6 +65,54 @@ body {
 	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75);
 }
 
+/* -- TYPOGRAPHY -- */
+h1 {
+	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	color: #990000;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+h2 {
+	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-weight: 700;
+	color: #000000;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-weight: 700;
+	color: #000000;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #000000;
+	margin: 0 0 16px 0;
+}
+a:link, a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+b {
+	font-weight: bold;
+}
+em {
+	color: #990000; /* This makes text red */
+}
+
 /* -- NAVIGATION -- */
 #nav {
 	width: 165px;
@@ -79,6 +127,7 @@ body {
 	text-indent: -9999em;
 	margin: 0;
 	padding: 0;
+	cursor: pointer;
 }
 #nav_01 a { /* Tar & Roses */
 	width: 165px;
@@ -92,7 +141,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -200px no-repeat;
 }
-#nav_02 a:hover {
+#nav_02 a:hover, #nav_02_selected {
+	width: 165px;
+	height: 60px;
 	background: url('image/nav_sprite.jpg') -200px -200px no-repeat;
 }
 #nav_03 a { /* Photos */
@@ -101,7 +152,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -300px no-repeat;
 }
-#nav_03 a:hover {
+#nav_03 a:hover, #nav_03_selected {
+	width: 165px;
+	height: 30px;
 	background: url('image/nav_sprite.jpg') -200px -300px no-repeat;
 }
 #nav_04 a { /* News */
@@ -110,7 +163,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -400px no-repeat;
 }
-#nav_04 a:hover {
+#nav_04 a:hover, #nav_04_selected {
+	width: 165px;
+	height: 50px;
 	background: url('image/nav_sprite.jpg') -200px -400px no-repeat;
 }
 #nav_05 a { /* The Team */
@@ -119,7 +174,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -500px no-repeat;
 }
-#nav_05 a:hover {
+#nav_05 a:hover, #nav_05_selected {
+	width: 165px;
+	height: 60px;
 	background: url('image/nav_sprite.jpg') -200px -500px no-repeat;
 }
 #nav_06 a { /* Parties */
@@ -128,7 +185,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -600px no-repeat;
 }
-#nav_06 a:hover {
+#nav_06 a:hover, #nav_06_selected {
+	width: 165px;
+	height: 30px;
 	background: url('image/nav_sprite.jpg') -200px -600px no-repeat;
 }
 #nav_07 a { /* Press */
@@ -137,7 +196,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -700px no-repeat;
 }
-#nav_07 a:hover {
+#nav_07 a:hover, #nav_07_selected {
+	width: 165px;
+	height: 30px;
 	background: url('image/nav_sprite.jpg') -200px -700px no-repeat;
 }
 #nav_08 a { /* Visit Us */
@@ -146,7 +207,9 @@ body {
 	display: block;
 	background: url('image/nav_sprite.jpg') 0 -800px no-repeat;
 }
-#nav_08 a:hover {
+#nav_08 a:hover, #nav_08_selected {
+	width: 165px;
+	height: 50px;
 	background: url('image/nav_sprite.jpg') -200px -800px no-repeat;
 }
 #nav_09 a { /* Address */
@@ -250,6 +313,132 @@ body {
 }
 #menu_dinner a:hover {
 	background: url('image/menu_sprite.jpg') -400px 0 no-repeat;
+}
+
+/* -- PARTIES CONTENT -- */
+#parties_background {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: url('image/coming_soon.jpg');
+	float: left;
+	overflow: hidden;
+}
+
+/* -- THE TEAM CONTENT -- */
+#team_content {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: transparent;
+	float: left;
+	overflow: auto;
+}
+.team_member {
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+.team_member img.portrait {
+	width: 760px;
+	border: 10px solid #FFFFFF;
+}
+.member_name {
+	width: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.team_member img.arrow {
+	float: left;
+	padding: 14px 0;
+}
+.member_name h2 {
+	padding: 10px 20px;
+	float: left;
+	text-align: center;
+}
+.team_member .column_1 {
+	width: 380px;
+	margin: 10px 20px 0 0;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+}
+.team_member .column_2 {
+	width: 380px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+}
+
+/* -- NEWS CONTENT -- */
+#news_content {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: transparent;
+	float: left;
+	overflow: auto;
+}
+.news_entry {
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	overflow: hidden;
+}
+.news_entry .column_1 {
+	width: 380px;
+	margin: 10px 20px 0 0;
+	overflow: hidden;
+	float: left;
+	text-align: justify;	
+}
+.news_entry .column_2 {
+	width: 380px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+	border-bottom: 2px solid #990000;	
+}
+.news_entry .column_1 img {
+	width: 360px;
+	border: 10px solid #FFFFFF;
+}
+
+/* -- PRESS CONTENT -- */
+#press_content {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: transparent;
+	float: left;
+	overflow: auto;
+}
+.press_entry {
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	overflow: hidden;	
+}
+.press_entry .column_1 {
+	width: 280px;
+	margin: 10px 20px 0 100px;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+}
+.press_entry .column_2 {
+	width: 380px;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+	float: left;
+	text-align: justify;
+	border-bottom: 2px solid #990000;	
+}
+.press_entry .column_1 img {
+	width: 260px;
+	border: 10px solid #FFFFFF;
 }
 
 /* -- CODA SLIDER STYLES (image slideshow) -- */
