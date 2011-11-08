@@ -441,6 +441,35 @@ em {
 	border: 10px solid #FFFFFF;
 }
 
+/* -- PHOTOS PAGE CONTENT -- */
+#photo_content {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 0;
+	background: transparent;
+	float: left;
+	overflow: hidden;
+}
+#primary_photo {
+	width: 760px;
+	height: 540px;
+	border: 10px solid #FFFFFF;
+	background: #CCCCCC;
+	margin: 0 0 10px 0;
+}
+#film_strip {
+	width: 800px;
+	overflow: hidden;
+}
+.thumbnail {
+	width: 128px;
+	height: 85px;
+	border: 10px solid #FFFFFF;
+	background: #CCCCCC;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
 /* -- CODA SLIDER STYLES (image slideshow) -- */
 noscript div {
 	background: #ccc;
@@ -510,7 +539,9 @@ noscript div {
 /* Miscellaneous */
 .coda-slider-wrapper {
 	clear: both;
-	overflow: auto;
+	overflow: hidden;
+	background: #FFFFFF;
+	border: 10px solid #FFFFFF;
 }
 .coda-slider {
 	float: left;
