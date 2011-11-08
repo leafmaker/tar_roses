@@ -343,18 +343,19 @@ em {
 	border: 10px solid #FFFFFF;
 }
 .member_name {
-	width: 500px;
-	margin: 0 auto;
+	padding: 12px 0 10px 0;
+	text-align: center;
 	overflow: hidden;
 }
-.team_member img.arrow {
-	float: left;
-	padding: 14px 0;
-}
 .member_name h2 {
-	padding: 10px 20px;
-	float: left;
-	text-align: center;
+	padding: 0 10px;
+	display: inline;
+}
+.member_name img {
+	height: 10px;
+	width: 30px;
+	display: inline;
+	margin: 0 0 3px 0;
 }
 .team_member .column_1 {
 	width: 380px;
@@ -378,7 +379,8 @@ em {
 	margin: 33px 0 0 0;
 	background: transparent;
 	float: left;
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .news_entry {
 	width: 100%;
@@ -387,14 +389,14 @@ em {
 	overflow: hidden;
 }
 .news_entry .column_1 {
-	width: 380px;
+	width: 370px;
 	margin: 10px 20px 0 0;
 	overflow: hidden;
 	float: left;
 	text-align: justify;	
 }
 .news_entry .column_2 {
-	width: 380px;
+	width: 370px;
 	margin: 10px 0 0 0;
 	overflow: hidden;
 	float: left;
@@ -402,7 +404,7 @@ em {
 	border-bottom: 2px solid #990000;	
 }
 .news_entry .column_1 img {
-	width: 360px;
+	width: 350px;
 	border: 10px solid #FFFFFF;
 }
 
@@ -413,7 +415,8 @@ em {
 	margin: 33px 0 0 0;
 	background: transparent;
 	float: left;
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .press_entry {
 	width: 100%;
@@ -422,14 +425,14 @@ em {
 	overflow: hidden;	
 }
 .press_entry .column_1 {
-	width: 280px;
-	margin: 10px 20px 0 50px;
+	width: 370px;
+	margin: 10px 20px 0 0;
 	overflow: hidden;
 	float: left;
 	text-align: justify;
 }
 .press_entry .column_2 {
-	width: 380px;
+	width: 370px;
 	margin: 10px 0 0 0;
 	overflow: hidden;
 	float: left;
@@ -439,6 +442,7 @@ em {
 .press_entry .column_1 img {
 	width: 260px;
 	border: 10px solid #FFFFFF;
+	float: right;
 }
 
 /* -- PHOTOS PAGE CONTENT -- */
