@@ -328,7 +328,7 @@ em {
 /* -- THE TEAM CONTENT -- */
 #team_content {
 	height: 675px;
-	width: 780px;
+	width: 800px;
 	margin: 33px 0 0 0;
 	background: transparent;
 	float: left;
@@ -343,7 +343,7 @@ em {
 	border: 10px solid #FFFFFF;
 }
 .member_name {
-	width: 450px;
+	width: 500px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -374,7 +374,7 @@ em {
 /* -- NEWS CONTENT -- */
 #news_content {
 	height: 675px;
-	width: 780px;
+	width: 800px;
 	margin: 33px 0 0 0;
 	background: transparent;
 	float: left;
@@ -409,7 +409,7 @@ em {
 /* -- PRESS CONTENT -- */
 #press_content {
 	height: 675px;
-	width: 780px;
+	width: 800px;
 	margin: 33px 0 0 0;
 	background: transparent;
 	float: left;
@@ -423,7 +423,7 @@ em {
 }
 .press_entry .column_1 {
 	width: 280px;
-	margin: 10px 20px 0 100px;
+	margin: 10px 20px 0 50px;
 	overflow: hidden;
 	float: left;
 	text-align: justify;
