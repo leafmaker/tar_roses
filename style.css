@@ -54,13 +54,13 @@ img {
 
 /* -- GENERAL STRUCTURE -- */
 body {
-	background: url('image/body_background.jpg') repeat;
+	background: url('images/body_background.jpg') repeat;
 }
 #wrapper {
 	width: 1000px;
 	height: 745px;
 	margin: 40px auto 20px auto;
-	background: url('image/paper_background.jpg');
+	background: url('images/paper_background.jpg');
 	-webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75); /* Safari and Chrome */
 	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.75);
 }
@@ -120,7 +120,7 @@ em {
 	margin: 30px 15px 35px 15px;
 	padding: 0;
 	float: left;
-	background: url('image/nav_sprite.jpg') 0 0 no-repeat;
+	background: url('images/nav_sprite.jpg') 0 0 no-repeat;
 }
 #nav li, #nav li a {
 	list-style: none;
@@ -133,135 +133,135 @@ em {
 	width: 165px;
 	height: 130px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 0 no-repeat;
+	background: url('images/nav_sprite.jpg') 0 0 no-repeat;
 }
 #nav_02 a { /* Menu */
 	width: 165px;
 	height: 60px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -200px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -200px no-repeat;
 }
 #nav_02 a:hover, #nav_02_selected {
 	width: 165px;
 	height: 60px;
-	background: url('image/nav_sprite.jpg') -200px -200px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -200px no-repeat;
 }
 #nav_03 a { /* Photos */
 	width: 165px;
 	height: 30px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -300px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -300px no-repeat;
 }
 #nav_03 a:hover, #nav_03_selected {
 	width: 165px;
 	height: 30px;
-	background: url('image/nav_sprite.jpg') -200px -300px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -300px no-repeat;
 }
 #nav_04 a { /* News */
 	width: 165px;
 	height: 50px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -400px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -400px no-repeat;
 }
 #nav_04 a:hover, #nav_04_selected {
 	width: 165px;
 	height: 50px;
-	background: url('image/nav_sprite.jpg') -200px -400px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -400px no-repeat;
 }
 #nav_05 a { /* The Team */
 	width: 165px;
 	height: 60px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -500px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -500px no-repeat;
 }
 #nav_05 a:hover, #nav_05_selected {
 	width: 165px;
 	height: 60px;
-	background: url('image/nav_sprite.jpg') -200px -500px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -500px no-repeat;
 }
 #nav_06 a { /* Parties */
 	width: 165px;
 	height: 30px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -600px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -600px no-repeat;
 }
 #nav_06 a:hover, #nav_06_selected {
 	width: 165px;
 	height: 30px;
-	background: url('image/nav_sprite.jpg') -200px -600px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -600px no-repeat;
 }
 #nav_07 a { /* Press */
 	width: 165px;
 	height: 30px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -700px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -700px no-repeat;
 }
 #nav_07 a:hover, #nav_07_selected {
 	width: 165px;
 	height: 30px;
-	background: url('image/nav_sprite.jpg') -200px -700px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -700px no-repeat;
 }
 #nav_08 a { /* Visit Us */
 	width: 165px;
 	height: 50px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -800px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -800px no-repeat;
 }
 #nav_08 a:hover, #nav_08_selected {
 	width: 165px;
 	height: 50px;
-	background: url('image/nav_sprite.jpg') -200px -800px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -800px no-repeat;
 }
 #nav_09 a { /* Address */
 	width: 165px;
 	height: 60px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -900px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -900px no-repeat;
 }
 #nav_09 a:hover {
-	background: url('image/nav_sprite.jpg') -200px -900px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -900px no-repeat;
 }
 #nav_10 { /* Phone Number */
 	width: 165px;
 	height: 60px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -1000px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -1000px no-repeat;
 }
 #nav_11 a { /* Facebook */
 	width: 86px;
 	height: 30px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -1100px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -1100px no-repeat;
 	float: left;
 }
 #nav_11 a:hover {
-	background: url('image/nav_sprite.jpg') -200px -1100px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -1100px no-repeat;
 }
 #nav_12 a { /* Twitter */
 	width: 79px;
 	height: 30px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -1200px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -1200px no-repeat;
 	float: left;
 }
 #nav_12 a:hover {
-	background: url('image/nav_sprite.jpg') -200px -1200px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -1200px no-repeat;
 }
 #nav_13 a { /* Reservations */
 	width: 165px;
 	height: 40px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -1300px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -1300px no-repeat;
 	clear: both;
 }
 #nav_13 a:hover {
-	background: url('image/nav_sprite.jpg') -200px -1300px no-repeat;
+	background: url('images/nav_sprite.jpg') -200px -1300px no-repeat;
 }
 #nav_14 { /* It's Wood Fired */
 	width: 165px;
 	height: 50px;
 	display: block;
-	background: url('image/nav_sprite.jpg') 0 -1400px no-repeat;
+	background: url('images/nav_sprite.jpg') 0 -1400px no-repeat;
 }
 
 /* -- HOME CONTENT -- */
@@ -279,7 +279,7 @@ em {
 	height: 675px;
 	width: 780px;
 	margin: 33px 0 0 0;
-	background: url('image/lunch_dinner.jpg');
+	background: url('images/lunch_dinner.jpg');
 	float: left;
 	overflow: hidden;
 }
@@ -300,7 +300,7 @@ em {
 	width: 376px;
 	height: 25px;
 	display: block;
-	background: url('image/menu_sprite.jpg') 0 -100px no-repeat;
+	background: url('images/menu_sprite.jpg') 0 -100px no-repeat;
 	float: left;
 	cursor: default !important; /* remove cursor style once lunch menu is available for download */
 }
@@ -308,11 +308,11 @@ em {
 	width: 376px;
 	height: 25px;
 	display: block;
-	background: url('image/menu_sprite.jpg') 0 0 no-repeat;
+	background: url('images/menu_sprite.jpg') 0 0 no-repeat;
 	float: left;
 }
 #menu_dinner a:hover {
-	background: url('image/menu_sprite.jpg') -400px 0 no-repeat;
+	background: url('images/menu_sprite.jpg') -400px 0 no-repeat;
 }
 
 /* -- PARTIES CONTENT -- */
@@ -320,7 +320,7 @@ em {
 	height: 675px;
 	width: 780px;
 	margin: 33px 0 0 0;
-	background: url('image/coming_soon.jpg');
+	background: url('images/coming_soon.jpg');
 	float: left;
 	overflow: hidden;
 }
