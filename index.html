@@ -13,20 +13,12 @@
 	
 	<!-- Begin JavaScript -->
 		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
-		<script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="javascripts/jquery.coda-slider-2.0.js"></script>
-		 <script type="text/javascript">
-			$().ready(function() {
-				$('#coda-slider-1').codaSlider({
-				autoSlide: true,
-				autoSlideInterval: 3000,
-				autoSlideStopWhenClicked: false,
-				dynamicArrows: false,
-				dynamicTabs: false,
-				slideEaseDuration: 400,
-				});
+		<script type="text/javascript" src="javascripts/fadeSlideShow.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery('#slideshow').fadeSlideShow();
 			});
-		 </script>
+		</script>
 	<!-- End JavaScript -->
 </head>
 <body>
@@ -54,7 +46,7 @@
 		<!-- CONTENT -->
 		<div id="home_slideshow">
 			
-			<!-- BEGIN CODA SLIDER (Image Slideshow) -->
+			<!-- BEGIN JQUERY SLIDESHOW -->
 			<noscript>
 				<div>
 			        <p>Unfortunately your browser does not have JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:</p>
@@ -64,36 +56,14 @@
 			        </ol>
 			    </div>
 			</noscript>
-		
-			<div class="coda-slider-wrapper">
-				<div class="coda-slider preload" id="coda-slider-1">
-					<div class="panel">
-						<div class="panel-wrapper">
-							<img src="image/home/slide_01.gif" height="655" width="760" alt="Loading" />
-						</div>
-					</div>
-					<div class="panel">
-						<div class="panel-wrapper">
-							<img src="image/home/slide_02.gif" height="655" width="760" alt="Loading" />
-						</div>
-					</div>
-					<div class="panel">
-						<div class="panel-wrapper">
-							<img src="image/home/slide_03.gif" height="655" width="760" alt="Loading" />
-						</div>
-					</div>
-					<div class="panel">
-						<div class="panel-wrapper">
-							<img src="image/home/slide_04.gif" height="655" width="760" alt="Loading" />
-						</div>
-					</div>
-					<div class="panel">
-						<div class="panel-wrapper">
-							<img src="image/home/slide_05.gif" height="655" width="760" alt="Loading" />
-						</div>
-					</div>
-				</div><!-- /.coda-slider -->
-			</div><!-- /.coda-slider-wrapper -->
+			
+			<ul id="slideshow">
+		        <li><img src="image/home/slide_04.gif" width="760" height="655" border="0" alt="" /></li> <!-- This is the last image in the slideshow -->
+		        <li><img src="image/home/slide_03.gif" width="760" height="655" border="0" alt="" /></li>
+		        <li><img src="image/home/slide_02.gif" width="760" height="655" border="0" alt="" /></li>
+		        <li><img src="image/home/slide_01.gif" width="760" height="655" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
+		    </ul><br clear="all" />
+			<!-- END SLIDESHOW -->
 	
 		</div><!-- /#home_slideshow -->
 		

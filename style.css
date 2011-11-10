@@ -503,6 +503,15 @@ em {
 	margin: 0 0 10px 0;
 }
 
+/* -- SIMPLE SLIDESHOW STYLES (homepage) -- */
+ul#slideshow {
+	list-style: none;
+	height: 675px;
+	width: 780px;
+	overflow: hidden;
+	border: 10px solid #FFFFFF;
+}
+
 /* -- CODA SLIDER STYLES (image slideshow) -- */
 noscript div {
 	background: #ccc;
