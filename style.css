@@ -67,7 +67,7 @@ body {
 
 /* -- TYPOGRAPHY -- */
 h1 {
-	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-family: 'Kreon', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 21px;
 	color: #990000;
@@ -76,7 +76,7 @@ h1 {
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-family: 'Kreon', Arial, sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 18px;
@@ -84,7 +84,7 @@ h2 {
 	text-transform: uppercase;
 }
 h3 {
-	font-family: 'Kreon', 'Kameron', 'Rokkitt', 'Volkhov', Arial, sans-serif;
+	font-family: 'Kreon', Arial, sans-serif;
 	font-weight: 700;
 	color: #000000;
 	font-size: 12px;
