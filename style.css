@@ -93,11 +93,11 @@ h3 {
 	margin: 0 0 10px 0;
 }
 p {
-	font-family: Arial, sans-serif;
-	font-size: 11px;
-	line-height: 16px;
+	font-family: Georgia, 'Times New Roman', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
 	color: #000000;
-	margin: 0 0 16px 0;
+	margin: 0 0 18px 0;
 }
 a:link, a:visited {
 	color: #990000;
@@ -218,7 +218,9 @@ em {
 	display: block;
 	background: url('images/nav_sprite.jpg') 0 -900px no-repeat;
 }
-#nav_09 a:hover {
+#nav_09 a:hover, #nav_09_selected {
+	width: 165px;
+	height: 60px;
 	background: url('images/nav_sprite.jpg') -200px -900px no-repeat;
 }
 #nav_10 { /* Phone Number */
@@ -279,14 +281,14 @@ em {
 	height: 675px;
 	width: 780px;
 	margin: 33px 0 0 0;
-	background: url('images/lunch_dinner.jpg');
+	background: url('images/menu_background.jpg');
 	float: left;
 	overflow: hidden;
 }
 #menu {
 	width: 752px;
 	height: 25px;
-	margin: 490px 0 0 14px;
+	margin: 178px 0 0 20px;
 	padding: 0;
 	float: left;
 }
@@ -296,23 +298,33 @@ em {
 	margin: 0;
 	padding: 0;
 }
-#menu_lunch a { /* Lunch Menu */
-	width: 376px;
-	height: 25px;
+#menu_lunch_gray a { /* COMING SOON - Lunch Menu (grayed out version) - Only for use until lunch menu is available */
+	width: 350px;
+	height: 310px;
 	display: block;
-	background: url('images/menu_sprite.jpg') 0 -100px no-repeat;
+	background: url('images/lunch_dinner_sprite.jpg') 0 0 no-repeat;
 	float: left;
-	cursor: default !important; /* remove cursor style once lunch menu is available for download */
+	cursor: default !important;
+}
+#menu_lunch a { /* Lunch Menu */
+	width: 350px;
+	height: 310px;
+	display: block;
+	background: url('images/lunch_dinner_sprite.jpg') 0 -800px no-repeat;
+	float: left;
+}
+#menu_lunch a:hover {
+	background: url('images/lunch_dinner_sprite.jpg') -400px -800px no-repeat;
 }
 #menu_dinner a { /* Dinner Menu */
-	width: 376px;
-	height: 25px;
+	width: 380px;
+	height: 310px;
 	display: block;
-	background: url('images/menu_sprite.jpg') 0 0 no-repeat;
+	background: url('images/lunch_dinner_sprite.jpg') 0 -400px no-repeat;
 	float: left;
 }
 #menu_dinner a:hover {
-	background: url('images/menu_sprite.jpg') -400px 0 no-repeat;
+	background: url('images/lunch_dinner_sprite.jpg') -400px -400px no-repeat;
 }
 
 /* -- PARTIES CONTENT -- */
@@ -323,6 +335,28 @@ em {
 	background: url('images/coming_soon.jpg');
 	float: left;
 	overflow: hidden;
+}
+
+/* -- FRIENDS of T&R CONTENT -- */
+#friends_content {
+	height: 675px;
+	width: 780px;
+	margin: 33px 0 0 10px;
+	background: transparent;
+	float: left;
+	overflow: hidden;
+}
+.friends_column {
+	width: 260px;
+	background: transparent;
+	float: left;
+	overflow: hidden;
+}
+#peace_love_respect {
+	margin: 30px 0 60px 0;
+}
+ul li.friend {
+	line-height: 20px;
 }
 
 /* -- THE TEAM CONTENT -- */
